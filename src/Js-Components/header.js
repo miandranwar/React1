@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Style/App.scss';
+import '../Style/App.scss';
 import Menu from './Menu';
 
 class header extends Component {
