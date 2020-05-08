@@ -15,7 +15,7 @@ class header extends Component {
         return (
             <div className="header">
                 <Menu/>
-                <h1>{this.state.company.toUpperCase()}</h1>
+                <h1 className="display-4">{this.state.company.toUpperCase()}</h1>
                 <p>{this.state.subtitle}</p>                
             </div>
         );
