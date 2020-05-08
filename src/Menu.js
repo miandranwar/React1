@@ -6,7 +6,7 @@ class Menu extends Component {
         super();
 
         this.state = {
-            navigation: ['Home', 'Shopping', 'Returns', 'Contact us']
+            navigation: ['Home', 'News', 'Shopping', 'Returns', 'Contact us']
         }
     }
     render() {

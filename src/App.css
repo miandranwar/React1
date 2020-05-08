@@ -10,7 +10,8 @@ body {
 }
 .menu {
   background-color: #70a2ec;
-  padding: 10px
+  padding: 10px;
+  border-radius: 15px;
 
 }
 .menu a {
