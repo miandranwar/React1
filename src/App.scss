@@ -4,10 +4,6 @@
 
 
 
-body {
-  background-color: #000;
-
-}
 .header {
   background-color: #0e56c2;
   text-align: center;
@@ -16,17 +12,31 @@ body {
   h1 {
     font-family: 'Monoton', cursive;
     font-weight: 100;
+    margin-top: 60px;
   }
 }
 .menu {
   background-color: #70a2ec;
   padding: 10px;
   border-radius: 15px;
-  position: sticky;
+  position: fixed;
+  width: 93%;
     a {
       color: #fff;
       text-decoration: none;
       margin: 10px;
     }
+}
+
+.main {
+
+  h1 {
+    color: #08439b;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  p {
+    padding: 50px;
+  }
 }
 
