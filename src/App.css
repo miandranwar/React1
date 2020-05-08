@@ -8,3 +8,15 @@ body {
   padding: 30px;
   color: #fff;
 }
+.menu {
+  background-color: #70a2ec;
+  padding: 10px
+
+}
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  margin: 10px;
+
+
+}

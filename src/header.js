@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import Menu from './Menu';
 
 class header extends Component {
     constructor() {
@@ -13,6 +14,7 @@ class header extends Component {
     render() {
         return (
             <div className="header">
+                <Menu/>
                 <h1>{this.state.company}</h1>
                 <p>{this.state.subtitle}</p>                
             </div>
