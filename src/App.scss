@@ -12,12 +12,11 @@ body {
   background-color: #70a2ec;
   padding: 10px;
   border-radius: 15px;
-
+  position: sticky;
+    a {
+      color: #fff;
+      text-decoration: none;
+      margin: 10px;
+    }
 }
-.menu a {
-  color: #fff;
-  text-decoration: none;
-  margin: 10px;
 
-
-}
