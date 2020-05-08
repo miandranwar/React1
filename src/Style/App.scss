@@ -19,13 +19,8 @@
   background-color: $navbar;
   padding: 10px;
   border-radius: 15px;
-  position: fixed;
-  width: 93%;
-    a {
-      color: $blubgFont;
-      text-decoration: none;
-      margin: 10px;
-    }
+  border: solid 1px #000;
+  margin: 0 50px;
 }
 
 .main {
